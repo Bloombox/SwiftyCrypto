@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78707F9320B0845B0055371B /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78707F9220B0845B0055371B /* CommonCrypto.framework */; };
 		B721AE3A2050D71600642030 /* NSDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B721AE392050D71600642030 /* NSDataExtension.swift */; };
 		B7B2094820417776003BB264 /* SwiftyCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B2093E20417776003BB264 /* SwiftyCrypto.framework */; };
 		B7B2094F20417776003BB264 /* SwiftyCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B2094120417776003BB264 /* SwiftyCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -74,7 +73,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		78707F9220B0845B0055371B /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonCrypto.framework; path = Carthage/Build/iOS/CommonCrypto.framework; sourceTree = "<group>"; };
 		B721AE392050D71600642030 /* NSDataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDataExtension.swift; sourceTree = "<group>"; };
 		B7B2093E20417776003BB264 /* SwiftyCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B2094120417776003BB264 /* SwiftyCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyCrypto.h; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78707F9320B0845B0055371B /* CommonCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				B7B2094120417776003BB264 /* SwiftyCrypto.h */,
-				78707F9220B0845B0055371B /* CommonCrypto.framework */,
 				B79CC85A2050CDF3006B71DB /* Sources */,
 				B7B2094220417776003BB264 /* Info.plist */,
 				B7B2094B20417776003BB264 /* SwiftyCryptoTests */,
@@ -361,6 +357,7 @@
 				TargetAttributes = {
 					B7B2093D20417776003BB264 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 					B7B2094620417776003BB264 = {
@@ -677,7 +674,7 @@
 				"SWIFT_INCLUDE_PATHS[sdk=macosx*]" = "${SRCROOT}/Cocoapods/macosx/**";
 				"SWIFT_INCLUDE_PATHS[sdk=watchos*]" = "${SRCROOT}/Cocoapods/watchos/**";
 				"SWIFT_INCLUDE_PATHS[sdk=watchsimulator*]" = "${SRCROOT}/Cocoapods/watchsimulator/**";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -713,7 +710,7 @@
 				"SWIFT_INCLUDE_PATHS[sdk=macosx*]" = "${SRCROOT}/Cocoapods/macosx/**";
 				"SWIFT_INCLUDE_PATHS[sdk=watchos*]" = "${SRCROOT}/Cocoapods/watchos/**";
 				"SWIFT_INCLUDE_PATHS[sdk=watchsimulator*]" = "${SRCROOT}/Cocoapods/watchsimulator/**";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
